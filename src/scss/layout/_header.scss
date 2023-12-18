@@ -1,0 +1,37 @@
+.no-webp .inicio{
+    background-image: url(../img/header.jpg);
+}
+.webp .inicio{
+    background-image: url(../img/header.webp);
+}
+.header {
+ background-color: $grisOscuro;
+ padding: 1rem 0 3rem 0;
+
+    &.inicio {
+        background-position: center center; //centrar imagen
+        background-size: cover;   // Tome toda el espacio disponible
+
+        @include tablet {
+            min-height: 45rem;
+        }
+        @include tablet {
+            min-height: 45rem;
+        }
+    }
+}
+
+.contenido-header {  //selecciono al padre de barra y h1 para aplicarle flex y grid de padre a hijo
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+ 
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 70rem;
+    }
+}

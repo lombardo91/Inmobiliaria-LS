@@ -1,6 +1,6 @@
-284--->  npx gulp css - Ejecutar css!!
+288--->  npx gulp css - Ejecutar css!!
 
 Me funcionó primero ejecutnado
-npm i -D gulp@4.0.2 gulp-imagemin@7.1.0
+--- npm i -D gulp@4.0.2 gulp-imagemin@7.1.0
 y luego
-npx gulp
+---- npx gulp

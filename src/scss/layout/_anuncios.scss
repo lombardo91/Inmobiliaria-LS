@@ -8,12 +8,12 @@
 
 .anuncio{
     background-color: lighten($gris, 4);
-    border: 1.8px solid darken($gris, 19)
-
+    border: 1.8px solid darken($gris, 19);
 }
 
 .contenido-anuncio{
     padding: 2rem;
+    max-height: 80rem;
 }
 
 p{

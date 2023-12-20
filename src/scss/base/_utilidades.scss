@@ -5,3 +5,8 @@
 .contenido-centrado {
     max-width: 800px;
 }
+.alinear-derecha{
+  //  text-align: right; 
+  display: flex;
+  justify-content: flex-end;
+}

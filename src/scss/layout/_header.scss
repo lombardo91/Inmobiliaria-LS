@@ -13,11 +13,11 @@
         background-size: cover;   // Tome toda el espacio disponible
    
         @include tablet {
-            min-height: 45rem;
+            min-height: 70rem;
         }
         .contenido-header{
             @include tablet {
-                min-height: 15rem;
+                min-height: 70rem;
             }
         }
     }
@@ -28,13 +28,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
  
     h1 {
         text-align: left; // alinear lado izquierdo
         color: $blanco;
         font-weight: $bold;
         line-height: 2;
-        max-width: 70rem;
+        max-width: 70rem;  //Salto de linea del titulo
+      
     }
 }

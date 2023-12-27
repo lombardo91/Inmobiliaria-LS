@@ -1,4 +1,5 @@
-292--->  npx gulp css - Ejecutar css!!
+299--->  npx gulp css - Ejecutar css!!
+seccion 27
 
 Me funcionó primero ejecutnado
 --- npm i -D gulp@4.0.2 gulp-imagemin@7.1.0

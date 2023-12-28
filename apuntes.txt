@@ -1,4 +1,4 @@
-299--->  npx gulp css - Ejecutar css!!
+300-->  npx gulp css - Ejecutar css!!
 seccion 27
 
 Me funcionó primero ejecutnado

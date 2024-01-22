@@ -1,0 +1,47 @@
+.formulario{
+
+  p{
+    font-size: 1.4rem;
+    color: $grisOscuro;
+    margin: 2rem 0 0 0;
+  }
+
+  legend{
+    font-size: 2rem;
+    color:$grisOscuro
+  }
+  label{
+    font-weight: $bold;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  // Este es un selector de atributo, seleccionamos todos los input menos el "submit"
+  input:not( [type="submit"] ), textarea, select{  
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: $blanco;
+    border: 1px solid $verde;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  textarea{
+    height: 16rem;
+  }
+
+  .forma-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  //Le aplicamos solo al input type "radio"
+  input[type="radio"] {
+    margin: 0;
+    width: auto;
+  }
+
+
+}

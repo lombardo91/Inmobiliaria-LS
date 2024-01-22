@@ -1,6 +1,7 @@
 .barra {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 3rem;
 
     @include tablet {
@@ -10,9 +11,17 @@
 }
 
 .navegacion {
+
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .3s ease-in-out, opacity 0.9s linear;
+   
+
     @include tablet{
         display: flex;
         align-items: center;
+        opacity: 1;
+        visibility: visible;
     }
 
 
@@ -33,4 +42,29 @@
 
         }
     }
+}
+
+/** Menu de Hamburguesa **/
+
+@include tablet{
+    .mobile-menu{
+        display: none;
+    }
+}
+// De esta manera tmb se puede hacer, como la de arriba
+// .mivile-menu {
+//     @include tablet{
+//         display: none;
+//     }
+// }
+
+.mobile-menu {
+    img{
+        width: 5rem;
+    }
+}
+
+.mostrar {
+ visibility: visible;
+ opacity: 1;
 }

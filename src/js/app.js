@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
  
 //----------------------------------------------------------------------------
 
+// toggle, si tiene la clase, la quita, sino la tiene la agrega!
    navegacionResponsive = () => {
         const navegacion = document.querySelector('.navegacion');
         navegacion.classList.toggle('mostrar')

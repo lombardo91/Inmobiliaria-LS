@@ -7,3 +7,16 @@ y luego
 ---- npx gulp
 
 clase 300, 301, 302 de la seccion 27- Dark mode! No lo implemente
+
+
+Seccion 28! implementando PHP
+Antes regreso a otras seccion para instalar php y apache
+
+Repasamos el stack AMP (Apache MySQL PHP) ambiente de desarrollo
+
+video 303 y 304  crear bd desde mysql workbench!! 
+Crear tablas, columnas y cargar datos!! Genial!
+
+seccion 30 CRUD
+310: creando formulario
+311: coneccion a bs de datos...

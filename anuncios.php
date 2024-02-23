@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
-    <header class="header">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="/"> <!--forma de siempre redirigir al index-->
-                    <img src="build/img/logo.svg" alt="Logotipo de Vienes Raises">
-                </a>
+<?php   
 
-                <nav class="navegacion">
-                   <a href="nosotros.html">Nosotros</a>
-                   <a href="anuncios.html">Anuncios</a>
-                   <a href="blog.html">Blog</a>
-                   <a href="contacto.html">Contacto</a>
-                </nav>
-                
-            </div> <!--.barra-->
-        </div>
-    </header>
+        require 'includes/funciones.php';
+         
+         
+        incluirTemplate('header');
+?>
 
     <main class="contenedor seccion">
         <section class="seccion contenedor">
@@ -58,7 +37,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncio.html" class="boton-amarillo-block">
+                        <a href="anuncio.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -90,7 +69,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncios.html" class="boton-amarillo-block">
+                        <a href="anuncios.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -122,7 +101,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncios.html" class="boton-amarillo-block">
+                        <a href="anuncios.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -154,7 +133,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncios.html" class="boton-amarillo-block">
+                        <a href="anuncios.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -186,7 +165,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncio.html" class="boton-amarillo-block">
+                        <a href="anuncio.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -218,7 +197,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncio.html" class="boton-amarillo-block">
+                        <a href="anuncio.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -250,7 +229,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncio.html" class="boton-amarillo-block">
+                        <a href="anuncio.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -283,7 +262,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncio.html" class="boton-amarillo-block">
+                        <a href="anuncio.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -315,7 +294,7 @@
                                 <p>4</p>
                             </li>
                         </ul>
-                        <a href="anuncio.html" class="boton-amarillo-block">
+                        <a href="anuncio.php" class="boton-amarillo-block">
                             Ver Propiedad
                         </a>
     
@@ -324,21 +303,11 @@
             </section>
     </main>
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-             </nav>
-        </div>
-        <p class="copyright">Todos los derechos Reservados 2024 &copy;</p>
-    </footer>
+    <?php   
+       incluirTemplate('footer');
+     ?>
 
 
 
     <script src="build/js/bundle.min.js"></script>
     <!--mordernaizer, para ver si el navegador soporta webp(siertas caracteristicas)-->
-</body>
-</html>

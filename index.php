@@ -1,36 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
-    <header class="header inicio">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="/"> <!--forma de siempre redirigir al index-->
-                    <img src="build/img/logo.svg" alt="Logotipo de Vienes Raises">
-                </a>
+<?php   
 
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono menu responsive">
-                </div>
-
-                <nav class="navegacion">
-                   <a href="nosotros.html">Nosotros</a>
-                   <a href="anuncios.html">Anuncios</a>
-                   <a href="blog.html">Blog</a>
-                   <a href="contacto.html">Contacto</a>
-                </nav>
-                
-            </div> <!--.barra-->
-            <h1>Ventas de Casas y Departamentos Exclusivos de Lujo</h1>
-        </div>
-    </header>
+        require 'includes/funciones.php';
+         
+         
+        incluirTemplate('header', $inicio = true );
+?>
 
     <main class="contenedor seccion">
         <h1>Mas sobre Nosotros</h1>
@@ -92,7 +66,7 @@
                             <p>4</p>
                         </li>
                     </ul>
-                    <a href="anuncios.html" class="boton-amarillo-block">
+                    <a href="anuncios.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
 
@@ -124,7 +98,7 @@
                             <p>4</p>
                         </li>
                     </ul>
-                    <a href="anuncios.html" class="boton-amarillo-block">
+                    <a href="anuncios.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
 
@@ -156,7 +130,7 @@
                             <p>4</p>
                         </li>
                     </ul>
-                    <a href="anuncios.html" class="boton-amarillo-block">
+                    <a href="anuncios.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
 
@@ -165,7 +139,7 @@
 
         </div><!--.contenedor-anuncio-->
         <div class="alinear-derecha">
-            <a href="anuncios.html" class="boton-verde">
+            <a href="anuncios.php" class="boton-verde">
                 Ver Todas
             </a>
         </div>
@@ -174,7 +148,7 @@
     <section class="imagen-contacto">
         <h2>Encuentra la Casa de tus Sueños</h2>
         <p>Completa el formulario, y en breve un accesor se pondra a dispociosion</p>
-        <a href="contacto.html" class="boton-amarillo">Contactànos</a>
+        <a href="contacto.php" class="boton-amarillo">Contactànos</a>
     </section>
 
     <div class="contenedor seccion seccion-inferior">
@@ -190,7 +164,7 @@
                     </picture>
                 </div>
                 <div class="texto-entrada">
-                    <a href="entrada.html">
+                    <a href="entrada.php">
                         <h4>Terraza en el Techo de Tu Casa</h4>
                         <p class="informacion-meta">Escrito el <span>19/12/2023</span> por: <span>Admin</span></p>
 
@@ -212,7 +186,7 @@
                     </picture>
                 </div>
                 <div class="texto-entrada">
-                    <a href="entrada.html">
+                    <a href="entrada.php">
                         <h4>Decoraciones Internas - Ideas Imperdibles</h4>
                         <p class="informacion-meta">Escrito el <span>13/12/2023</span> por: <span>Admin</span></p>
 
@@ -239,21 +213,10 @@
 
     </div>
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-             </nav>
-        </div>
-        <p class="copyright">Todos los derechos Reservados 2024 &copy;</p>
-    </footer>
+  
+    
+    <?php   
+       incluirTemplate('footer');
+     ?>
 
 
-
-    <script src="build/js/bundle.min.js"></script>
-    <!--mordernaizer, para ver si el navegador soporta webp(siertas caracteristicas)-->
-</body>
-</html>
